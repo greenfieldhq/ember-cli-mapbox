@@ -1,0 +1,29 @@
+html, body {
+  margin: 20px;
+}
+
+div.map {
+  width: 100%;
+  height: 600px;
+}
+
+.marker-icon {
+  background:#e31f3a;
+  color: #FFF;
+  text-align:center;
+  vertical-align:middle;
+  border:1px solid #FFF;
+  border-radius:20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#description {
+  height: 150px;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical; 
+}
+
